@@ -1,14 +1,8 @@
-"""
-DEMO Evader — SIMPLE FLEE.
-NO lidar, NO obstacle avoidance, NO stuck detection.
-Just drive away from nearest pursuer (slowly).
-"""
 import numpy as np
 from agents.base_agent import BaseAgent
 
 
 class FleeingEvader(BaseAgent):
-    """Simple flee: drive away from nearest pursuer."""
     
     def __init__(self, name="evader", lidar_range=5.0,
                  max_linear_vel=0.5,
