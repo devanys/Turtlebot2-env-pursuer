@@ -1,8 +1,3 @@
-"""
-DEMO Pursuer — PURE DIRECT RAM VERSION.
-NO lidar, NO obstacle avoidance, NO stuck detection.
-Just drive straight to nearest evader and ram it.
-"""
 import numpy as np
 from agents.base_agent import BaseAgent
 
