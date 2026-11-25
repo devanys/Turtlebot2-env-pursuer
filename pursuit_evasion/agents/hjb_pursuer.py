@@ -1,4 +1,3 @@
-"""HJB-based Pursuer with stuck recovery and direct chase override."""
 import numpy as np
 from agents.base_agent import BaseAgent
 
